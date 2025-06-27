@@ -17,11 +17,14 @@ The project includes:
 
 ## 📂 Dataset
 
-- `F78DS-Essay-Features.csv`: Main training dataset (1332 essays)
-- `F78DS-Essay-Features-Submission.csv`: Kaggle test dataset (no scores)
 - Each essay is represented using 19 numeric features
 - Target variable: `score` (ranging from 1 to 6)
-
+- `F78DS-Essay-Features.csv`: Training data with features + essay scores  
+- `F78DS-Essay-Features-Submission.csv`: Kaggle test dataset (no scores)
+- `H00453164-Aushat-1.csv`: Naive Bayes Kaggle submission
+- `H00453164-Aushat-2.csv`: Random Forest Kaggle submission  
+- `H00453164_cw2.ipynb`: Jupyter Notebook with full project code  
+- `confusion_matrix_rf.png`: Confusion matrix for Random Forest model  
 ---
 
 ## 🛠️ Tools & Libraries
